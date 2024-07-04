@@ -2,7 +2,7 @@
 #include "MainMenu.h"
 #include"ConsoleName.h"
 
-extern ConsoleName Mainmenu;
+extern ConsoleName consoleName ;
 MainMenu::MainMenu() 
 	:ConsoleName("Main_Menu") {}
 	MainMenu::~MainMenu() {}
