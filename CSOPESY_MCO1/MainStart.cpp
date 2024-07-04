@@ -1,12 +1,8 @@
-#include"MainConsole.h"
+#include"MainConsole.h"  // Corrected include directive
 #include <iostream>
-
-
-MainConsole mainConsole;
-
-int main()
-{
-    mainConsole.run();
+MainConsole mainConsole;  // Create an instance of MainConsole
+int main(){
+    mainConsole.run();  // Run the main console application
 
     return 0;
 }
