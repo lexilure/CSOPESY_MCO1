@@ -1,4 +1,4 @@
-
+// writes the config.txt
 
 #include <string>
 
