@@ -7,7 +7,7 @@ public:
     Configuration();
     ~Configuration();
 
-    bool initialize();
+    bool launcher();
     void inputConfigFile();
     void printConfig();
 
