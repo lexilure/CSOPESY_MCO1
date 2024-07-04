@@ -1,0 +1,42 @@
+#pragma once
+#include <memory>
+#include <unordered_map>
+#include <string>
+
+#include "ConsoleName.h"
+#include "Configuration.h"
+#include "Scheduler.h"
+
+class MainConsole
+{
+public:
+    MainConsole();
+    ~MainConsole();
+
+    void run();
+    void switchScreen(const std::string& consoleName);
+
+    bool isInitialized() const;
+    void setInitialized();
+    Configuration& getConfiguration();
+
+    const std::unordered_map<std::string, std::shared_ptr<ConsoleName>>& getConsoles() const;
+    void addConsole(const std::shared_ptr<ConsoleName>& console);
+    void returnToPreviousScreen();
+
+    Scheduler& getScheduler();
+    void createProcessScreen(const std::string& processName);
+
+private:
+    Configuration config;
+    Scheduler scheduler;
+
+    std::unordered_map<std::string, std::shared_ptr<ConsoleName>> consoles;
+    std::shared_ptr<ConsoleName> previousConsole;
+    std::shared_ptr<ConsoleName> currentConsole;
+
+    int processID = 0;
+
+    void initializeConsoles();
+    int getRandomInstruction();
+};

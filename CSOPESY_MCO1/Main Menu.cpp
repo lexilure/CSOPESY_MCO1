@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Main Menu.h"
-#include"Console.h"
+#include "MainMenu.h"
+#include"ConsoleName.h"
 
-extern Console console;
+extern ConsoleName Mainmenu;
 MainMenu::MainMenu() 
-	:Console("Main_Menu") {}
+	:ConsoleName("Main_Menu") {}
 	MainMenu::~MainMenu() {}
 
 	void MainMenu::execute() {
