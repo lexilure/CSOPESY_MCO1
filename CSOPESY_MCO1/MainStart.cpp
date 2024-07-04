@@ -1,13 +1,12 @@
+#include"MainConsole.h"
 #include <iostream>
 
-
-#include "MainConsole.h"
 
 MainConsole mainConsole;
 
 int main()
 {
-    consoleManager.run();
+    mainConsole.run();
 
     return 0;
 }

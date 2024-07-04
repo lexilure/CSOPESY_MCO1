@@ -1,3 +1,5 @@
+
+#include "Configuration.h"
 #include "MainConsole.h"
 #include <iostream>
 #include <random>
@@ -35,14 +37,14 @@ void MainConsole::switchScreen(const std::string& consoleName)
     }
 }
 
-bool MainConsole::isInitialized() const
-{
-    return config.isInitialized();
+bool MainConsole::isLaunched() const{
+	return config.configIsLaunched();
 }
 
-void MainConsole::setInitialized()
-{
-    config.setInitialized();
+void MainConsole::setLaunched() {
+	if (config.launcher() ) {
+		std::cout << "Initialization successful..." << std::endl;
+	}
 }
 
 Configuration& MainConsole::getConfiguration()
@@ -72,10 +74,6 @@ void MainConsole::returnToPreviousScreen()
     }
 }
 
-Scheduler& MainConsole::getScheduler()
-{
-    return scheduler;
-}
 
 void MainConsole::createProcessScreen(const std::string& processName)
 {
