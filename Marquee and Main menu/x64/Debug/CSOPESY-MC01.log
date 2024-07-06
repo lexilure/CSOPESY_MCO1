@@ -1,0 +1,5 @@
+﻿  MarqueeScreen.cpp
+D:\Users\Angelo\Downloads\Final\MarqueeScreen.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\Angelo\Downloads\Final\MarqueeScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Users\Angelo\Downloads\Final\MarqueeScreen.cpp(32,53): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CSOPESY-MC01.vcxproj -> D:\Users\Angelo\Downloads\Final\x64\Debug\CSOPESY-MC01.exe
