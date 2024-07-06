@@ -1,0 +1,22 @@
+﻿  Console.cpp
+C:\Users\alexa\OneDrive\Documents\CSOPESY_MCO1\Project3\MarqueeScreen.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Console.cpp')
+  
+C:\Users\alexa\OneDrive\Documents\CSOPESY_MCO1\Project3\MarqueeScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Console.cpp')
+  
+C:\Users\alexa\OneDrive\Documents\CSOPESY_MCO1\Project3\Console.cpp(179,7): warning C4101: 'flag': unreferenced local variable
+  ConsoleName.cpp
+  MainMenuScreen.cpp
+  MarqueeScreen.cpp
+C:\Users\alexa\OneDrive\Documents\CSOPESY_MCO1\Project3\MarqueeScreen.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'MarqueeScreen.cpp')
+  
+C:\Users\alexa\OneDrive\Documents\CSOPESY_MCO1\Project3\MarqueeScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'MarqueeScreen.cpp')
+  
+C:\Users\alexa\OneDrive\Documents\CSOPESY_MCO1\Project3\MarqueeScreen.cpp(30,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ProcessScreen.cpp
+  main.cpp
+  Generating Code...
+  Project3.vcxproj -> C:\Users\alexa\OneDrive\Documents\CSOPESY_MCO1\x64\Debug\Project3.exe
