@@ -1,0 +1,68 @@
+﻿  MainConsole.cpp
+  MainMenu.cpp
+C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(83,15): error C2660: 'Scheduler::addProcess': function does not take 1 arguments
+      C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\Scheduler.h(15,10):
+      see declaration of 'Scheduler::addProcess'
+      C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(83,15):
+      while trying to match the argument list '(ProcessName)'
+  
+C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(86,43): error C2065: 'ProcessScreen': undeclared identifier
+C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(86,31): error C2672: 'std::make_shared': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(2897,5):
+      could be 'std::shared_ptr<_Ty> std::make_shared(_Types ...)'
+          C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(86,43):
+          'std::make_shared': invalid template argument for '_Ty', type expected
+  
+C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(89,16): error C3536: 'processScreen': cannot be used before it is initialized
+C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(89,5): error C2664: 'void MainConsole::addConsole(const std::shared_ptr<ConsoleName> &)': cannot convert argument 1 from 'int' to 'const std::shared_ptr<ConsoleName> &'
+      C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(89,16):
+      Reason: cannot convert from 'int' to 'const std::shared_ptr<ConsoleName>'
+      C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(89,16):
+      'std::shared_ptr<ConsoleName>::shared_ptr': no overloaded function could convert all the argument types
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1561,5):
+          could be 'std::shared_ptr<ConsoleName>::shared_ptr(std::nullptr_t) noexcept'
+              C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(89,16):
+              'std::shared_ptr<ConsoleName>::shared_ptr(std::nullptr_t) noexcept': cannot convert argument 1 from 'int' to 'std::nullptr_t'
+                  C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(89,16):
+                  only a null pointer constant can be converted to nullptr_t
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1656,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(std::unique_ptr<_Ux,_Dx> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1645,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(std::auto_ptr<_Other> &&)'
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1632,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(std::shared_ptr<_Ty2> &&) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1622,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(const std::shared_ptr<_Ty2> &) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1612,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(std::shared_ptr<_Ty2> &&,ConsoleName *) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1606,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(const std::shared_ptr<_Ty2> &,ConsoleName *) noexcept'
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1601,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(std::nullptr_t,_Dx,_Alloc)'
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1595,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(std::nullptr_t,_Dx)'
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1589,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(_Ux *,_Dx,_Alloc)'
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\memory(1581,5):
+          or       'std::shared_ptr<ConsoleName>::shared_ptr(_Ux *,_Dx)'
+          C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(89,16):
+          while trying to match the argument list '(int)'
+      C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(58,19):
+      see declaration of 'MainConsole::addConsole'
+      C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.cpp(89,5):
+      while trying to match the argument list '(int)'
+  
+C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.h(10,7): error C2011: 'MainConsole': 'class' type redefinition
+  (compiling source file 'MainMenu.cpp')
+      C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\MainConsole.h(10,7):
+      see declaration of 'MainConsole'
+  
+  Run.cpp
+  Scheduler.cpp
+C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\Scheduler.cpp(49,14): error C3083: 'this_thread': the symbol to the left of a '::' must be a type
+C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\Scheduler.cpp(49,27): error C2039: 'sleep_for': is not a member of 'std'
+      C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.40.33617\include\fstream(20,1):
+      see declaration of 'std'
+  
+C:\Users\alexa\source\repos\Padua_CSOPESY MCO1\Padua_CSOPESY MCO1\Scheduler.cpp(49,27): error C3861: 'sleep_for': identifier not found
+  Generating Code...
